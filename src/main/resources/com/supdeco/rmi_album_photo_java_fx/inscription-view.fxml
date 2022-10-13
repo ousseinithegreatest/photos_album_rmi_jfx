@@ -15,21 +15,24 @@
             </Text>
             <Text fill="WHITE" layoutX="112.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ici, gardez vos photos à vie !" />
          </children></Pane>
-      <Text fill="#216869" layoutX="509.0" layoutY="163.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Connexion">
+      <Text fill="#216869" layoutX="509.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Inscription">
          <font>
             <Font name="System Bold" size="29.0" />
          </font>
       </Text>
-      <TextField layoutX="479.0" layoutY="195.0" prefHeight="26.0" prefWidth="206.0" promptText="Email" />
-      <TextField layoutX="479.0" layoutY="233.0" prefHeight="26.0" prefWidth="206.0" promptText="Mot de passe" />
-      <Button layoutX="509.0" layoutY="274.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="160.0" style="-fx-background-color: #216869;" text="Se conencer" textFill="WHITE">
+      <TextField layoutX="479.0" layoutY="156.0" prefHeight="26.0" prefWidth="206.0" promptText="Pseudo" />
+      <TextField layoutX="479.0" layoutY="195.0" prefHeight="26.0" prefWidth="206.0" promptText="Prénom" />
+      <Button layoutX="509.0" layoutY="368.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="160.0" style="-fx-background-color: #216869;" text="S'inscrire" textFill="WHITE">
          <font>
             <Font size="18.0" />
          </font></Button>
-      <Text fill="#216869" layoutX="513.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Créer un compte.">
+      <Text fill="#216869" layoutX="523.0" layoutY="494.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Se connecter.">
          <font>
             <Font size="20.0" />
          </font>
       </Text>
+      <TextField layoutX="479.0" layoutY="237.0" prefHeight="26.0" prefWidth="206.0" promptText="Email" />
+      <TextField layoutX="479.0" layoutY="279.0" prefHeight="26.0" prefWidth="206.0" promptText="Mot de passe" />
+      <TextField layoutX="479.0" layoutY="317.0" prefHeight="26.0" prefWidth="206.0" promptText="Confirmez le mot de passe" />
    </children>
 </AnchorPane>
